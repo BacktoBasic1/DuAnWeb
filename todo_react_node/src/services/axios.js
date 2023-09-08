@@ -4,7 +4,7 @@ import Cookies from 'js-cookie';
 const token = Cookies.get('token');
 
 const api = axios.create({
-  baseURL: 'http://localhost:3001',
+  baseURL: 'https://web-server-ck1r.onrender.com',
   headers: {
     'Authorization': `Bearer ${token}`
   }
